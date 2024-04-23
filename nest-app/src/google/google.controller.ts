@@ -14,6 +14,8 @@ export class GoogleController {
   @Get('redirect')
   @UseGuards(AuthGuard('google'))
   async googleAuthRedirect(@Request() req) {
+    console.log('user情報: ', req.user);
+    // TODO: user情報を使用してjwtを渡す
     return this.googleService.googleLogin(req);
   }
 }
