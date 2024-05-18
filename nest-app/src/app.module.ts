@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { AuthMiddleware } from './middleware/auth.middleware';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { AuthMiddleware } from './middleware/auth.middleware';
       }),
       inject: [ConfigService],
     }),
+    UsersModule,
     // 新たにmoduleを作成した場合、importsに追加
   ],
   controllers: [AppController],
