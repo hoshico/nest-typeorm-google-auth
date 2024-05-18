@@ -1,5 +1,5 @@
 # Hoshico's Nest.js Template
-https://avatars.githubusercontent.com/u/77495217?s…00&u=f6f6ccd3b06df9d85f3fdb44f59fccffb14d923c&v=4
+
 
 ## Description
 Using TypeORM version 3 for ORM, this template is implemented to perform Google authentication for all resources.
