@@ -1,4 +1,5 @@
 # Hoshico's Nest.js Template
+![Group 28](https://github.com/hoshico/nest-typeorm-google-auth/assets/77495217/37c55843-bd9e-4927-95c0-00d5f2fa2b8d)
 
 
 ## Description
