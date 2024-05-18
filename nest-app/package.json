@@ -1,8 +1,8 @@
 {
-  "name": "app",
+  "name": "nest-typeorm-google-auth",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Template for nest.js with typeorm v3 and googleauth",
+  "author": "y.Hoshimoto",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
