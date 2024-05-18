@@ -1,34 +1,18 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Nest.js Template
 
 ## Description
+Using TypeORM version 3 for ORM, this template is implemented to perform Google authentication for all resources.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Main libraries
 
-## Installation
+|Name|Version|
+|----|-------|
+|TypeORM|0.3.20|
+|Google Auth Library|9.9.20|
+|Class Validator|9.9.20|
+|uuid|9.0.1|
 
-nest-app配下で
+## Authentication and Authorization
+The description regarding authentication is written in middleware > auth.middleware.ts. When a request is made to the API, authentication is first performed here using the id_token issued by Google's auth server.
 
-```bash
-$ npm install
-```
-
-## Running the app
-
-Dockerので起動は
-
-```bash
-# watch mode
-$ docker compose exec node npm run start:dev
-
-```
-
-ローカルでの起動はnest-app配下で
-```bash
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
+## API
