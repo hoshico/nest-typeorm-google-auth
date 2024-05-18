@@ -18,3 +18,14 @@ Using TypeORM version 3 for ORM, this template is implemented to perform Google 
 The description regarding authentication is written in middleware > auth.middleware.ts. When a request is made to the API, authentication is first performed here using the id_token issued by Google's auth server.
 
 ## API
+
+
+## Migration
+
+First, plesa add entity and build
+
+```
+npm run typeorm migration:generate src/migrations/<migration name>
+
+npm run typeorm migration:run
+```
