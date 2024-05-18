@@ -3,6 +3,7 @@
 /nest-app/node_modules
 /build
 /data
+/nest-app/.env**
 
 # Logs
 logs
